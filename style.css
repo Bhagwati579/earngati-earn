@@ -1,0 +1,30 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  padding: 2rem;
+  background: #222;
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+.card {
+  background: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #d60000;
+}
+footer {
+  padding: 1rem;
+  background: #222;
+  font-size: 0.9rem;
+}
