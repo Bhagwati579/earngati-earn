@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+</head>
+<body style="background-color: black; color: white; font-family: Arial; text-align: center;">
+  <h1>Admin Dashboard</h1>
+  <ul id="taskList"></ul>
+
+  <script>
+    fetch('tasks.json')
+      .then(response => response.json())
+      .then(data => {
+        const list = document.getElementById('taskList');
+        data.tasks.forEach(task => {
+          const li = document.createElement('li');
+          li.textContent = task;
+          list.appendChild(li);
+        });
+      })
+      .catch(err => {
+        document.getElementById('taskList').textContent = 'Error loading tasks.';
+      });
+  </script>
+</body>
+</html>
