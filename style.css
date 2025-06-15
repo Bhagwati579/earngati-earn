@@ -1,0 +1,35 @@
+
+body {
+  background: #000;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header, footer {
+  padding: 1em;
+  background: #111;
+}
+nav a {
+  color: red;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.task {
+  background: #222;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 8px;
+  width: 80%;
+}
+button {
+  background: red;
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 1em;
+  box-shadow: 0 0 10px red;
+}
