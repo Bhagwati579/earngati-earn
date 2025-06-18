@@ -1,0 +1,4 @@
+Step 1: Login to your Gmail.
+Step 2: Go to Settings > Filters > Create New Filter.
+Step 3: Enter target company domains and set automatic reply.
+Step 4: Compose Auto-Reply message for EarnGati Task System.
