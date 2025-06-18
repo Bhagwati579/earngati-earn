@@ -1,1 +1,0 @@
-To use Gmail outreach, configure SMTP and set auto-replies in Gmail settings.
