@@ -1,1 +1,0 @@
-document.querySelector('button').onclick = () => alert('₹2000 Task Claimed!');
