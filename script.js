@@ -1,0 +1,1 @@
+document.querySelector('button').onclick = () => alert('Coming Soon... Prepaid Task Unlock System!');
