@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Panel - EarnGati™</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #002f4b, #005b96);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: rgba(0,0,0,0.2);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.2);
+    }
+    h1 { text-align: center; }
+    label, input { display: block; width: 100%; margin-top: 1rem; }
+    button {
+      background: #00c6ff;
+      border: none;
+      padding: 1rem;
+      border-radius: 8px;
+      color: #000;
+      font-weight: bold;
+      margin-top: 1.5rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Login</h1>
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="admin" />
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="••••••••" />
+    <button onclick="alert('Logged in successfully!')">Login</button>
+  </div>
+</body>
+</html>
