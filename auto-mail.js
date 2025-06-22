@@ -1,1 +1,0 @@
-console.log('Auto Gmail Outreach Ready.');
