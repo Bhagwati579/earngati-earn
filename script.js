@@ -1,1 +1,0 @@
-document.querySelector('button').onclick = () => { alert('Coming Soon: ₹2000 task system!'); };
