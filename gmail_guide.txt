@@ -1,5 +1,0 @@
-Gmail Auto Outreach Setup:
-1. Use EmailJS
-2. Add Service ID, Template ID
-3. Set auto-reply
-4. Done!
