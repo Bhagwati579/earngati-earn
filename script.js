@@ -1,1 +1,0 @@
-document.getElementById('earn-btn').addEventListener('click', function() { alert('Coming Soon... Prepaid Task Unlock System!'); });
