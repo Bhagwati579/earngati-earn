@@ -1,1 +1,0 @@
-document.querySelector('button').addEventListener('click', () => alert('Loading real task...'));
