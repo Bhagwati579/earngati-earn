@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EarnGati™ Auto Outreach</title>
+</head>
+<body style="background-color:#111; color:white; font-family:sans-serif; text-align:center; padding:2rem;">
+  <h1>📧 EarnGati™ Auto Gmail Outreach</h1>
+  <form id="contact-form" style="margin-top:2rem;">
+    <input type="text" name="to_name" placeholder="Recipient Name" required><br><br>
+    <input type="email" name="to_email" placeholder="Recipient Email" required><br><br>
+    <input type="text" name="company_name" placeholder="Company Name (e.g. Nykaa)" required><br><br>
+    <input type="email" name="from_email" value="bhagwatilalpushkarna123@gmail.com" readonly><br><br>
+    <button type="submit">Send Auto Email</button>
+  </form>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("YOUR_USER_ID"); // Replace with your actual User ID from EmailJS
+    })();
+
+    document.getElementById("contact-form").addEventListener("submit", function(e){
+      e.preventDefault();
+      emailjs.sendForm("YOUR_SERVICE_ID", "template_earngati01", this)
+        .then(() => alert("✅ Email sent successfully!"))
+        .catch((error) => alert("❌ Failed: " + JSON.stringify(error)));
+    });
+  </script>
+</body>
+</html>
